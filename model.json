@@ -1,0 +1,19 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "access_token": "",
+    "session_timeout_seconds": 1800,
+    "max_image_bytes": 20971520
+  },
+  "models": {
+    "mcitrack_l384": {
+      "enabled": true,
+      "type": "mcitrack_l384",
+      "code_path": "./model/MCITrack-main",
+      "model_path": "./model/MCITrack-main/MCITRACK_ep0300.pth.tar",
+      "config": "mcitrack_l384",
+      "device": "auto"
+    }
+  }
+}
